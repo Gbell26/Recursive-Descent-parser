@@ -15,9 +15,7 @@ A recursive descent parser that takes an input and determines whether it is a va
         <rest> ::= <digit><rest>|<digit>   
 <nonzerodigit> ::= 1|2|3|4|5|...|9
        <digit> ::= 0|1|2|3|4|5|...|9
-               
-   
-               
+                       
  A few sample input/outputs:
  
  
