@@ -1,4 +1,5 @@
 A recursive descent parser that takes an input and determines whether it is a valid expression according to the following grammar rules:
+
         <expr> ::= <term> * <term>
         <expr> ::= <term> - <term>
         <expr> ::= <term>
