@@ -1,4 +1,5 @@
 A recursive descent parser that takes an input and determines whether it is a valid expression according to the following grammar rules:
+
         <expr> ::= <term> * <term>
         <expr> ::= <term> - <term>
         <expr> ::= <term>
@@ -11,9 +12,9 @@ A recursive descent parser that takes an input and determines whether it is a va
     <alphanum> ::= <alpha> | <digit>
       <number> ::= <nonzerodigit><rest>|<digit>
         <rest> ::= <digit><rest>|<digit>   
-<nonzerodigit> ::= 1|2|3|4|5|...|9
-       <digit> ::= 0|1|2|3|4|5|...|9
-       <alpha> ::= a|b|c...|y|z|A|B|...|Y|Z|_
+\<nonzerodigit> ::= 1|2|3|4|5|...|9
+      \<digit> ::= 0|1|2|3|4|5|...|9
+       \<alpha> ::= a|b|c...|y|z|A|B|...|Y|Z|_
                        
  A few sample input/outputs:
 ![Screenshot 2023-03-05 204217](https://user-images.githubusercontent.com/107581827/223233833-205bdb0d-b550-4fd0-b135-2931c00bb81d.png)
